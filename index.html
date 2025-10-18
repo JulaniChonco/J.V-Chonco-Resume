@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Julani Victor Chonco — Portfolio</title>
+  <meta name="description" content="Portfolio of Julani Victor Chonco — Site Manager, CAS Specialist, and Software Engineering Graduate (HyperionDev). Full‑stack development projects in Java, MySQL, React, Node.js, and more."/>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preload" href="Julani.jpg" as="image" />
+</head>
+<body>
+  <header role="banner">
+    <h1>Julani Victor Chonco</h1>
+    <h2>Software Engineer | Full‑Stack Developer | Site Manager (CAS)</h2>
+    <figure class="profile-figure">
+      <img src="Julani.jpg" alt="Portrait of Julani Victor Chonco" loading="eager" />
+      <figcaption>HyperionDev Software Engineering Graduate <em>(awaiting certificate)</em></figcaption>
+    </figure>
+
+    <nav class="nav" aria-label="Primary">
+      <button class="tab" onclick="showContent('about')" aria-controls="about" aria-selected="true">About</button>
+      <button class="tab" onclick="showContent('skills')" aria-controls="skills">Skills</button>
+      <button class="tab" onclick="showContent('projects')" aria-controls="projects">Projects</button>
+      <button class="tab" onclick="showContent('experience')" aria-controls="experience">Work Experience</button>
+      <button class="tab" onclick="showContent('education')" aria-controls="education">Education</button>
+      <button class="tab" onclick="showContent('contact')" aria-controls="contact">Contact</button>
+      <button class="tab" onclick="showContent('search')" aria-controls="search">Search</button>
+    </nav>
+
+    <div class="cta-row">
+      <a class="btn" href="https://www.linkedin.com/in/julani-chonco-867784154/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/JulaniChonco" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="#projects" onclick="showContent('projects')">View Projects</a>
+    </div>
+  </header>
+
+  <main class="content" role="main">
+    <!-- ABOUT -->
+    <section id="about">
+      <h3>About Me</h3>
+      <p>I’m a technically driven Site Manager and CAS Specialist with deep experience in collision avoidance systems, installation audits, and mining‑tech operations.</p>
+      <p>After completing the <strong>HyperionDev Software Engineering Bootcamp</strong>, I expanded into full‑stack development — building with <strong>Java</strong>, <strong>MySQL</strong>, <strong>Node.js</strong>, <strong>React</strong>, <strong>MongoDB</strong>, and <strong>Laravel</strong> to create scalable software and tools that enhance safety and operational efficiency.</p>
+      <p>I enjoy bridging engineering and software: from mining‑system integrations to real‑time dashboards and process automation.</p>
+      <ul class="about-links">
+        <li>🌐 Portfolio (this site)</li>
+        <li>💻 <a href="https://github.com/JulaniChonco" target="_blank" rel="noopener">GitHub — @JulaniChonco</a></li>
+        <li>🔗 <a href="https://www.linkedin.com/in/julani-chonco-867784154/" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+      <p class="note">Note: Certificate issued on graduation — currently awaiting official document.</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" style="display:none;">
+      <h3>Skills</h3>
+      <div class="grid two-col">
+        <ul>
+          <li>Java, JDBC, Spring basics</li>
+          <li>MySQL / SQL</li>
+          <li>Node.js, Express.js</li>
+          <li>React (Vite), JSX</li>
+          <li>MongoDB, Mongoose</li>
+          <li>Laravel, PHP</li>
+        </ul>
+        <ul>
+          <li>REST APIs, JSON</li>
+          <li>Git &amp; GitHub</li>
+          <li>Docker basics</li>
+          <li>Technical documentation</li>
+          <li>CAS operations &amp; audits</li>
+          <li>Troubleshooting &amp; diagnostics</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" style="display:none;">
+      <h3>Projects</h3>
+      <p>Selected software projects from my HyperionDev journey and professional practice:</p>
+      <div class="projects">
+        <article class="card">
+          <h4>Quick Food (Java)</h4>
+          <p>Console app that generates customer invoices with defensive input validation and file output. Demonstrates Java fundamentals, OOP, and I/O.</p>
+          <ul class="meta">
+            <li><strong>Tech:</strong> Java</li>
+            <li><strong>Repo:</strong> <a href="https://github.com/JulaniChonco" target="_blank" rel="noopener">See GitHub</a></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h4>Poised PMS (Java + MySQL + JDBC)</h4>
+          <p>Project management system for a structural engineering firm. Full CRUD with JDBC, reporting, and data integrity checks.</p>
+          <ul class="meta">
+            <li><strong>Tech:</strong> Java, MySQL, JDBC</li>
+            <li><strong>Repo:</strong> <a href="https://github.com/JulaniChonco" target="_blank" rel="noopener">See GitHub</a></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h4>Capstone Auth (MERN + JWT)</h4>
+          <p>Role‑based credentials repository for OUs/Divisions with JWT auth. Includes protected routes, role changes, and division‑scoped permissions.</p>
+          <ul class="meta">
+            <li><strong>Tech:</strong> Node.js, Express, MongoDB, React, JWT</li>
+            <li><strong>Repo:</strong> <a href="https://github.com/JulaniChonco" target="_blank" rel="noopener">See GitHub</a></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h4>Maintenance Manager (Node/Express + MongoDB + React)</h4>
+          <p>Full‑stack app to track maintenance tasks, assets, and statuses with a React front‑end and REST API backend.</p>
+          <ul class="meta">
+            <li><strong>Tech:</strong> Node.js, Express, MongoDB, React</li>
+            <li><strong>Repo:</strong> <a href="https://github.com/JulaniChonco" target="_blank" rel="noopener">See GitHub</a></li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h4>ArticleHub (Laravel + MySQL)</h4>
+          <p>Blog/CMS with categories and tags, CRUD posts, and authentication. Built with Laravel and MySQL.</p>
+          <ul class="meta">
+            <li><strong>Tech:</strong> Laravel, PHP, MySQL</li>
+            <li><strong>Repo:</strong> <a href="https://github.com/JulaniChonco" target="_blank" rel="noopener">See GitHub</a></li>
+          </ul>
+        </article>
+      </div>
+      <p class="hint">Tip: Each repo includes a README with setup, usage, and screenshots.</p>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" style="display:none;">
+      <h3>Work Experience</h3>
+      <article>
+        <h4>Site Manager / CAS Specialist</h4>
+        <p>Lead site installations and audits for Collision Avoidance Systems (CAS). Coordinate HV/LDV retrofits, quality checks, documentation (ITR, handover), and stakeholder communication.</p>
+      </article>
+      <article>
+        <h4>Product Support Technician</h4>
+        <p>Provided technical support for CAS systems — diagnostics, performance monitoring, and training for cross‑functional teams.</p>
+      </article>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" style="display:none;">
+      <h3>Education</h3>
+      <ul>
+        <li><strong>HyperionDev Software Engineering Bootcamp</strong> — Graduate <em>(awaiting certificate)</em></li>
+        <li><strong>National Diploma in Electrical Engineering (Process Instrumentation)</strong> — Mangosuthu University of Technology (2013–2019)</li>
+        <li><strong>High School:</strong> Simunye High School (2006–2010)</li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" style="display:none;">
+      <h3>Contact</h3>
+      <p><strong>Name:</strong> Julani Victor Chonco</p>
+      <p><strong>Phone:</strong> +27 76 644 0981</p>
+      <p><strong>Email:</strong> <a href="mailto:jvchonco@gmail.com">jvchonco@gmail.com</a></p>
+
+      <!-- If hosted on static hosting, mailto is more reliable than POST -->
+      <div class="contact-actions">
+        <a class="btn" href="mailto:jvchonco@gmail.com?subject=Portfolio%20Enquiry">Email Me</a>
+        <a class="btn" href="https://www.linkedin.com/in/julani-chonco-867784154/" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      </div>
+
+      <form class="contact-form" action="/submit-feedback" method="POST" aria-label="Contact form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <p class="note">If the form endpoint is not configured, please use the Email Me button above.</p>
+    </section>
+
+    <!-- SEARCH -->
+    <section id="search" style="display:none;">
+      <h3>Search My CV</h3>
+      <form onsubmit="searchContent(); return false;" role="search" aria-label="Search site">
+        <input type="text" name="query" id="search-box" placeholder="Enter keyword to search" required />
+        <button type="submit">Search</button>
+      </form>
+      <div id="search-results" role="region" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>&copy; <span id="year"></span> Julani Victor Chonco. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Small helper to set the year without touching your existing script.js
+    (function() {
+      var y = document.getElementById('year');
+      if (y) y.textContent = new Date().getFullYear();
+    })();
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
